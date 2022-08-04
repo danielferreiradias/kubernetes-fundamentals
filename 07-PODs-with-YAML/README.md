@@ -10,6 +10,7 @@ metadata:
 spec:
 ```
 -  **Pod API Objects Reference:**  https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.24/#pod-v1-core
+-  **Finding API version for object:**  kubectl api-resources -o wide |grep -i pod
 
 ## Step-02: Create Simple Pod Definition using YAML 
 - We are going to create a very basic pod definition
